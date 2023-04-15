@@ -1,7 +1,5 @@
 <template>
   <el-config-provider :size="size" :z-index="zIndex">
-    <router-link to="/">Go to Home</router-link>
-    <router-link to="/about">Go to About</router-link>
     <router-view></router-view>
   </el-config-provider>
 </template>
@@ -23,4 +21,13 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style>
+#app{
+  width: 100%;
+  height: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+</style>

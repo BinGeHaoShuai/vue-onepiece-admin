@@ -6,8 +6,8 @@ import { createRouter, createWebHistory, Router } from "vue-router";
 // Each route should map to a component.
 // We'll talk about nested routes later.
 const routes = [
-  { path: '/', component: Home },
-  { path: '/about', component: Login },
+  { path: '/', component: Login },
+  { path: '/home', component: Home },
 ]
 export const router: Router = createRouter({
     history: createWebHistory(),
