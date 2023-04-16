@@ -1,5 +1,5 @@
+import Home from "@/layout/index.vue";
 import Login from "@/views/login/index.vue";
-import Home from "@/views/home/index.vue";
 import { createRouter, createWebHistory, Router } from "vue-router";
 
 // 2. Define some routes
