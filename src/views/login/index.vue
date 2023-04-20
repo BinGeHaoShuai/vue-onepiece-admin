@@ -140,6 +140,7 @@
       </svg>
     </div>
     <div class="form-container">
+      <el-image style="width: 100px; height: 100px" :src="logo" fit="fill" />
       <h1>OnePeice Admin</h1>
       <el-form :model="formMsg" size="large" style="min-width: 300px">
         <el-form-item>
@@ -184,6 +185,7 @@
 </template>
 
 <script lang="ts" setup>
+import logo from "@/assets/png/dogLogo.png";
 import { Lock, Postcard, User } from "@element-plus/icons-vue";
 import { reactive, ref } from "vue";
 
